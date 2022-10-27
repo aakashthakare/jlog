@@ -1,0 +1,146 @@
+.hidden {
+    display : none;
+}
+
+td, pre {
+    padding:0; margin:0;
+}
+
+.odd {
+    background-color: #FFF;
+} 
+
+.even {
+    background-color: #F5F5DC;
+} 
+
+table {  
+    border-collapse: collapse;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
+
+th, td {
+    padding: 0;
+    min-width : 60px;
+}
+
+tr {
+    height : 20px;
+}
+
+.noselect {
+   -webkit-touch-callout: none; 
+   -webkit-user-select: none; 
+   -khtml-user-select: none; 
+   -moz-user-select: none; 
+   -ms-user-select: none; 
+   user-select: none; 
+}
+
+html {
+    font-family:Courier New;
+}
+
+body {
+    background-color : #DFE2DB;
+    margin : 0px;
+}
+
+.header {
+    text-align:center; 
+    padding : 10px;
+    background:linear-gradient(#74AFAD, #558C89); 
+    color:white;
+    padding: 5px;
+}
+
+.file-upload {
+    padding : 10px 0 10px 0;
+    color:gray;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+box-shadow : 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 8px;
+    transition: 0.3s;
+    color : gray;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #74AFAD;
+    color : #fff;
+}
+
+.tabcontent {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: white;
+box-shadow : 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.page, .load-more {
+    background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.page {
+	margin : 0 5px;
+}
+
+.moveTop {
+	margin-left : 5px;
+}
+
+.pageLinks {
+    float : right;
+    padding : 5px;
+}
+
+.excOdd {
+    background: #eee;
+}
+
+.excEven {
+    background: #fff;
+}
+
+.spinner {
+    font-size:20px;
+    color:gray;
+    margin-right : 10px;
+    float: left;
+    margin-top: 10px;
+} 
+
+.google-link {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.tablinks {
+    font-size: 14px;
+    font-weight: bold;
+}

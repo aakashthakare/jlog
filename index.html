@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+      <meta content="utf-8" http-equiv="encoding" /> 
+      <meta name="description" content="Online Java Log Viewer. Just upload a log file and detect Exceptions quickly. Also, search the problem on Google in a single click! Apparently, view formatted logs of file size upto 25 MB. Lot more to be coming..." />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
+      <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+      <title>JLOG - Online Java Log Viewer</title>
+   </head>
+   <body>
+      <div class="header"> 
+          <b style="font-size:30px">JLOG</b>
+      	  <br/><small style="color:lightgray"><i>Quickly dip into logs of any Java application!</i></small>
+      </div>
+      <div style = "font-size : 14px; padding: 0 10% 0 10%;">
+	  <span style = "color:gray;">Upload Java Log File :</span> 
+          <i id="spinner" class="fa fa-spinner fa-spin hidden"></i>
+	  <input type="file" id="file-input" class = "file-upload" />
+      </div>
+      <div style="padding: 0 10% 20px 10%;">
+          <div id = "tab" class="tab">
+              <button id="excTab" class="tablinks"><i class="fa fa-bug"></i>&nbsp;&nbsp;Exceptions</button>
+              <button id= "viewTab" class="tablinks"><i class="fa fa-eye"></i>&nbsp;&nbsp;Viewer</button>
+          </div>
+          <div id="view"  class="tabcontent">
+              <div id = "pageLinks" class = "pageLinks"></div>
+              <table id = "logs" cellsapcing = 0></table>
+          </div>
+          <div id="exceptions"  class="tabcontent">
+              <pre id = "excCount" style="color:gray;padding:5px;"></pre>
+              <table id = "exc" cellsapcing = 0></table>
+          </div>
+      </div>
+      <script type="text/javascript" src="js/main.js"></script> 
+   </body>
+</html>
+
+
